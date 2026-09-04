@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#09090b">
+  <title>LUXE Native Folder Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <p class="eyebrow">LUXE MUSIC • ANDROID BRIDGE TEST</p>
+    <h1>Native music folder picker</h1>
+    <p class="muted">This test page proves the Android folder picker and audio streaming work before we merge the bridge into the full LUXE V4 UI.</p>
+    <button id="chooseFolderBtn">SELECT MUSIC FOLDER</button>
+    <p id="status" class="muted">No folder selected.</p>
+    <div id="songs"></div>
+    <audio id="audio" controls></audio>
+  </main>
+
+  <script src="android-folder-picker.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
